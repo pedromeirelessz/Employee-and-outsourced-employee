@@ -6,6 +6,8 @@ public class Employee {
 	private Integer hours;
 	private Double valuePerHour;
 
+//----------------------------------------------------------------------------------
+
 	public Employee() {
 	}
 
@@ -14,6 +16,8 @@ public class Employee {
 		this.hours = hours;
 		this.valuePerHour = valuePerHour;
 	}
+
+//----------------------------------------------------------------------------------
 
 	public String getName() {
 		return name;
@@ -39,10 +43,10 @@ public class Employee {
 		this.valuePerHour = valuePerHour;
 	}
 
+//----------------------------------------------------------------------------------
+
 	public double payment() {
 		return hours * valuePerHour;
 	}
-	
-	
 
 }

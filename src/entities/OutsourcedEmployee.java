@@ -4,6 +4,8 @@ public class OutsourcedEmployee extends Employee {
 
 	private Double additionalCharge;
 
+//----------------------------------------------------------------------------------
+
 	public OutsourcedEmployee() {
 		super();
 	}
@@ -13,6 +15,8 @@ public class OutsourcedEmployee extends Employee {
 		this.additionalCharge = additionalCharge;
 	}
 
+//----------------------------------------------------------------------------------
+
 	public Double getAdditionalCharge() {
 		return additionalCharge;
 	}
@@ -20,6 +24,8 @@ public class OutsourcedEmployee extends Employee {
 	public void setAdditionalCharge(Double additionalCharge) {
 		this.additionalCharge = additionalCharge;
 	}
+
+//----------------------------------------------------------------------------------
 
 	@Override
 	public double payment() {
